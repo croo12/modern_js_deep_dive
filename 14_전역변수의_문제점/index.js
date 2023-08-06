@@ -8,3 +8,6 @@ function foo() {
 }
 
 foo();
+
+console.log(global); //전역객체 global, 웹 환경에서는 window, node환경에서는 global였으나
+console.log(globalThis) //ES11에서 globalThis로 통일했다.
